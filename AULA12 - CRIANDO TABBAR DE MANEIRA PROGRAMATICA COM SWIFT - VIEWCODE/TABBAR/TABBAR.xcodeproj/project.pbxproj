@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		301F21C127F15A66001E9266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F21C027F15A66001E9266 /* AppDelegate.swift */; };
 		301F21C327F15A66001E9266 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F21C227F15A66001E9266 /* SceneDelegate.swift */; };
-		301F21C527F15A66001E9266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F21C427F15A66001E9266 /* ViewController.swift */; };
+		301F21C527F15A66001E9266 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F21C427F15A66001E9266 /* MyTabBarController.swift */; };
 		301F21CA27F15A68001E9266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301F21C927F15A68001E9266 /* Assets.xcassets */; };
 		301F21CD27F15A68001E9266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301F21CB27F15A68001E9266 /* LaunchScreen.storyboard */; };
 		30C44CFD27F1EA0F0090F99B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C44CFC27F1EA0F0090F99B /* HomeViewController.swift */; };
@@ -22,7 +22,7 @@
 		301F21BD27F15A66001E9266 /* TABBAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TABBAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		301F21C027F15A66001E9266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		301F21C227F15A66001E9266 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		301F21C427F15A66001E9266 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		301F21C427F15A66001E9266 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 		301F21C927F15A68001E9266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		301F21CC27F15A68001E9266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		301F21CE27F15A68001E9266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 			children = (
 				301F21C027F15A66001E9266 /* AppDelegate.swift */,
 				301F21C227F15A66001E9266 /* SceneDelegate.swift */,
-				301F21C427F15A66001E9266 /* ViewController.swift */,
+				301F21C427F15A66001E9266 /* MyTabBarController.swift */,
 				30C44CFB27F1E9C70090F99B /* View */,
 				301F21C927F15A68001E9266 /* Assets.xcassets */,
 				301F21CB27F15A68001E9266 /* LaunchScreen.storyboard */,
@@ -156,7 +156,7 @@
 			files = (
 				30C44D0127F1EBA00090F99B /* ProfileViewController.swift in Sources */,
 				30C44D0327F1EBAD0090F99B /* TrashViewController.swift in Sources */,
-				301F21C527F15A66001E9266 /* ViewController.swift in Sources */,
+				301F21C527F15A66001E9266 /* MyTabBarController.swift in Sources */,
 				301F21C127F15A66001E9266 /* AppDelegate.swift in Sources */,
 				301F21C327F15A66001E9266 /* SceneDelegate.swift in Sources */,
 				30C44CFF27F1EB8F0090F99B /* ConfigViewController.swift in Sources */,

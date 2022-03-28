@@ -22,21 +22,21 @@ class MyTabBarController: UITabBarController {
         let tela03 = UINavigationController(rootViewController: ProfileViewController())
         let tela04 = UINavigationController(rootViewController: TrashViewController())
         
-        self.setViewControllers([tela01, tela02,tela03, tela04], animated: false)
+        self.setViewControllers([tela01, tela02, tela03, tela04], animated: false)
         self.tabBar.backgroundColor = .white
         self.tabBar.isTranslucent = false
         
         guard let items = tabBar.items else {return}
-        
+
         items[0].title = "Favoritos"
         items[0].image = UIImage(systemName: "star")
-        
+
         items[1].title = "Configurações"
         items[1].image = UIImage(systemName: "gear")
-        
+
         items[2].title = "Perfil"
         items[2].image = UIImage(systemName: "person")
-        
+
         items[3].title = "Lixo"
         items[3].image = UIImage(systemName: "trash")
     }
